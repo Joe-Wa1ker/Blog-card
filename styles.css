@@ -1,0 +1,123 @@
+/* figtree-regular - latin */
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/figtree-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/figtree-v7-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/figtree-v7-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+    /* CSS reset */
+
+    * {
+        font-family: 'Figtree', sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-wrap: balance;
+    }
+
+    p {
+        max-width: 65ch;
+    }
+
+    /* Main styles */
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(47, 88%, 63%);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 1.5em;
+        border: solid 0.15em hsl(0, 0%, 7%);
+        border-radius: 2em;
+        background-color: white;
+        box-shadow: 0.5em 0.5em black;
+        max-width: 30em;
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 1.2rem;
+    }
+
+    .learnlabel {
+        background-color: hsl(47, 88%, 63%);
+        font-weight: 800;
+        font-size: 1.15em;
+        margin: 1.8em 0 0 0;
+        padding: 0.4em 1em;
+        border-radius: 0.3em;
+    }
+
+    .publishdate {
+        font-weight: 500;
+        font-size: 1.1em;
+        color: hsl(0, 0%, 7%);
+        margin: 1em 0 1em 0;
+    }
+
+    h1 {
+        color: hsl(0, 0%, 7%);
+        margin: 0 0 0.58em 0;
+    }
+
+    a {
+        text-decoration: none;
+        color:hsl(0, 0%, 7%);
+    }
+
+    a:active {
+        color: hsl(47, 88%, 63%);
+    }
+
+    .maintext {
+        color: hsl(0, 0%, 42%);
+        font-size: 1.3em;
+        margin: 0 0 1.3em 0;
+    }
+
+    .authorcontainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .authorcontainer img {
+        width: 20%;
+    }
+
+    .authorcontainer p {
+        width: 100%;
+        font-weight: 800;
+        font-size: larger;
+        text-wrap: none;
+        padding: 0 4em 0 1em;
+    }
