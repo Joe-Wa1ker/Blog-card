@@ -96,11 +96,9 @@
         color:hsl(0, 0%, 7%);
     }
 
-    a:active {
-        color: hsl(47, 88%, 63%);
-    }
-
-    a:hover {
+    a:active, 
+    a:hover, 
+    a:focus {
         color: hsl(47, 88%, 63%);
     }
 
